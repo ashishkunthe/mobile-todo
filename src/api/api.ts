@@ -2,7 +2,7 @@ import axios from "axios";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
 const api = axios.create({
-  baseURL: "http://192.168.83.173:4000/api", //  use your LAN IP if testing on real device
+  baseURL: "http://192.168.X.X:4000/api", //  use your LAN IP if testing on real device
 });
 
 api.interceptors.request.use(async (config) => {
